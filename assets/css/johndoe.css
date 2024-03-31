@@ -11376,10 +11376,10 @@ pre .code {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
+  /* -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+      -ms-flex-pack: justify; */
+          /* justify-content: space-between; */
   max-width: 180px;
 }
 
@@ -11506,13 +11506,17 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/header.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/pxfuel\ \(1\).jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/pxfuel\ \(1\).jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #fff;
+}
+.social-icons li {
+  justify-content: center !important;
+  padding: 0 10px;
 }
 
 .header .container {
@@ -11681,4 +11685,11 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+
+.contact {
+  background-image: url("../imgs/pxfuel.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
